@@ -1,0 +1,9 @@
+🎯 Summary of Commands
+Command	Purpose
+git clone <repo_URL>	    Download (clone) a GitHub repository to your device.
+cd <repository-name>	    Move into the project folder.
+git status	                Check what has changed.
+git add .	                Stage all changes.
+git commit -m "message"	    Save changes with a message.
+git push origin main	    Upload changes to GitHub.
+git pull origin main	    Download the latest changes from GitHub.
