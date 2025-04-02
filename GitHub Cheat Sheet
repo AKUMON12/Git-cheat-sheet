@@ -9,6 +9,9 @@ git push origin main	    Upload changes to GitHub.
 git pull origin main	    Download the latest changes from GitHub.
 
 
+
+
+
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ✅ Step-by-Step Guide to Upload Your Files (System) to GitHub
@@ -54,10 +57,14 @@ git commit -m "Fixed bug in login system"     Commit with a meaningful message
 4️⃣ Push the Changes Back to GitHub
 git push origin main 
 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
 
 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ✔️ Step-by-Step Git Branching and Merging Workflow
 
 1️⃣
@@ -65,37 +72,37 @@ git push origin main
 git clone <repository_url>        1.1. Clone an Existing Repository
 git init                          1.2. Initialize a New Repository
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 2️⃣
 2. Creating and Working with Branches
 git checkout -b <branch_name>           2.1. Create a New Branch and Switch to It
 git branch                              2.2. View the Current Branch
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 3️⃣
 3. Making Changes and Committing to Your Branch
 git add <filename>  or  git add .                  3.1. Staging Changes
 git commit -m "Describe your changes"              3.2. Committing Changes
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 4️⃣
 4. Pushing Your Branch to Remote (GitHub, GitLab, etc.)
 git push -u origin <branch_name>         4.1. Push a New Branch to Remote
 git push                                 4.2. Push Subsequent Changes
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 5️⃣
 5. Switching Between Branches
 git checkout <branch_name>          If you need to switch to a different branch, use:
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 6️⃣
 6. Merging Branches
 git checkout main             6.1. Checkout the Target Branch
 git pull origin main          6.2. Pull the Latest Changes (Optional but Recommended)
 git merge <branch_name>       6.3. Merge the Feature Branch
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 7️⃣
 7. Resolving Merge Conflicts
 <<<<<<< HEAD                                   7.1. Identifying Merge Conflicts
@@ -107,21 +114,41 @@ Changes from the branch you're merging in
 git add <resolved_file>                                                               7.2. Resolving Conflicts
 git commit -m "Resolve merge conflicts and merge feature/login-page into main"        7.3. Completing the Merge
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 8️⃣
 8. Pushing the Merged Changes
 git push origin main
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 9️⃣ 
 9. Deleting a Branch (Optional)
 git branch -d <branch_name>                     9.1. Delete a Local Branch // To delete a local branch that has been merged:
 git branch -D <branch_name>                                                // If the branch hasn’t been merged and you still want to delete it, force deletion with:
 git push origin --delete <branch_name>          9.2. Delete a Remote Branch
 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
+______________________________________________________________________________________________
+
+📌‼️Merging into Staging and Main
+```
+1. Pull Requests:
+ ➡️ Each member creates a **Pull Request (PR)** to merge their branch into "staging". ~
+ ➡️ On GitHub:
+     ▪ Go to [Pull Requests}
+     ▪ Click [New Pull Request]
+     ▪ Select:
+        - Base branch:** `staging`
+        - Compare branch:** `<your-branch>`
+     ▪ Add description and submit.
+
+2. Leader (Santoya) Reviews and Merges:**
+ ➡️ Santoya reviews and merges all PRs into `staging`.
+ ➡️ After testing, create a PR to merge `staging` into `main`.
+```
+________________________________________________________________________________________________
 
 
 
