@@ -142,7 +142,7 @@ git push origin --delete <branch_name>          9.2. Delete a Remote Branch
 ✅‼️Explanation:
 🔹git clone → This command is used to copy a repository from a remote source.
 🔹--single-branch → Tells Git to fetch only one branch instead of downloading all branches.
-🔹--branch frontend → Specifies the branch to clone (replace frontend with your desired branch).
+🔹--branch <branch-name> → Specifies the branch to clone (replace <branch-name> with your desired branch).
 🔹https://github.com/username/repository.git → This is the repository URL; replace it with the actual repo link.
 
 
@@ -153,15 +153,15 @@ git push origin --delete <branch_name>          9.2. Delete a Remote Branch
 🔺git branch
 
 ✅‼️You should see:        The asterisk (*) indicates the currently active branch.
-* frontend
+* <branch-name>
 
 6️⃣ Pull the Latest Changes (Optional)        To ensure you have the latest updates from the remote frontend branch: // This fetches and merges any new changes from the remote frontend branch.
-🔺git pull origin frontend
+🔺git pull origin <branch-name>
 
 7️⃣ Additional Notes
         🔹If you later need to switch to another branch, you can fetch and checkout that branch:
-🔺git fetch origin backend
-🔺git checkout backend
+🔺git fetch origin <branch-name>
+🔺git checkout <branch-name>
 
         🔹If you need all branches later, you can fetch them without re-cloning:
 🔺git fetch --all
