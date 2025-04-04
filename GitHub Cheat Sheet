@@ -137,7 +137,7 @@ git push origin --delete <branch_name>          9.2. Delete a Remote Branch
 🔺cd /path/to/your/directory
 
 3️⃣ Clone the Repository with a Specific Branch        Use the following command:
-🔺git clone --single-branch --branch frontend https://github.com/username/repository.git
+🔺git clone --single-branch --branch <branch-name> https://github.com/username/repository.git
 
 ✅‼️Explanation:
 🔹git clone → This command is used to copy a repository from a remote source.
