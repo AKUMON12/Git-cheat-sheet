@@ -11,6 +11,26 @@ git pull origin main	    Download the latest changes from GitHub.
 
 
 
+📌step-by-step guide (with commands and explanations) on how to work on a specific branch (frontend_Elvinia) of a GitHub repository
+✅ Step-by-Step Git Workflow
+git clone https://github.com/<username>/<repository-name>.git     	Clone the Repository
+cd <repository-name>                                                 	Navigate into the Cloned Repository
+git branch -a                                                         	Shows all local and remote branches
+git checkout <branch_name>						Checkout/Use the speficic Branch
+git pull origin <branch_name>						This makes sure your local <branch_name> branch is up to date with the latest remote changes
+code .									open the files using a text editor or IDE (e.g., VS Code) and edit the code as needed
+git status								See which files have been modified, added, or deleted
+git add .								Stages all modified files for commit // Use `git add <filename>` if you want to add specific files only
+git commit -m "Description"						Commits the staged files with a descriptive message
+git push origin <branch_name>						Pushes your local <branch_name> branch changes to the remote repository
+
+💡 Bonus Tips:
+git branch				If you're not sure whether you're on the correct branch // The active branch will be highlighted with a *
+git pull origin <branch_name>		To avoid merge conflicts, always pull before pushing
+git checkout -b backend-feature-xyz	If you’re working in a team, consider creating a feature branch off of <branch_name>
+
+
+
 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
