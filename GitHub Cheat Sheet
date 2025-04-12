@@ -1,3 +1,11 @@
+📁 Git/cmd commands in creating a folder structure
+mkdir		stands for "make directory" 	// This command creates a new folder in the current location (usually your terminal's current working directory).
+cd		stands for "change directory" 	// This command changes the current working directory, which means your terminal now works within that folder.
+touch		The touch command creates an empty file. You use it to create each of the files in their respective directories:
+cd ..		Refers to the parent directory (goes up one level). EXAMPLE: So, after you create the backend folder structure, this command takes you back to the student_information_system folder.
+
+
+
 🎯 Summary of Commands
 Command	Purpose
 git clone <repo_URL>	    Download (clone) a GitHub repository to your device.
