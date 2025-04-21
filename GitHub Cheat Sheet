@@ -220,3 +220,8 @@ ________________________________________________________________________________
 
 
 
+🔍 Using MySQL Command Line 📌
+1. Open XAMPP Shell
+2. Open your terminal and login to MySQL:	mysql -u root -p
+3. Use your database:				USE student_info_system;
+4. Show all tables in that database:		SHOW TABLES;
