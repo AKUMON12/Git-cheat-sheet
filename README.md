@@ -4,7 +4,7 @@ A full guide to Git commands, folder setup, GitHub collaboration, branching, mer
 
 ---
 
-## 📁 Basic Terminal / Git Folder Structure Commands
+## 🔘 📁 Basic Terminal / Git Folder Structure Commands
 
 | Command | Purpose / Description |
 |---------|------------------------|
@@ -15,7 +15,7 @@ A full guide to Git commands, folder setup, GitHub collaboration, branching, mer
 
 ---
 
-## 🎯 Essential Git Commands (Summary)
+## 🔘 🎯 Essential Git Commands (Summary)
 
 | Command | Purpose |
 |---------|---------|
@@ -29,7 +29,7 @@ A full guide to Git commands, folder setup, GitHub collaboration, branching, mer
 
 ---
 
-## 🌱 Working on a Specific Branch (`frontend_Elvinia` example)
+## 🔘 🌱 Working on a Specific Branch (`frontend_Elvinia` example)
 
 ### ✅ Step-by-Step Git Branch Workflow
 
@@ -54,7 +54,7 @@ git push origin <branch_name>                                   # Push changes t
 
 ---
 
-## 🗂️ Uploading Local Files to GitHub (First-Time Setup)
+## 🔘 🗂️ Uploading Local Files to GitHub (First-Time Setup)
 
 ### ✅ Initial Setup & First Push
 
@@ -69,7 +69,7 @@ git push -u origin main                    # Push to the main branch
 
 ---
 
-## 📄 Uploading a Specific Edited File
+## 🔘 📄 Uploading a Specific Edited File
 
 When you edit just one file and want to commit only that:
 
@@ -82,7 +82,7 @@ git push origin main                       # Push changes
 
 ---
 
-## 🔁 Pull → Edit → Push Workflow
+## 🔘 🔁 Pull → Edit → Push Workflow
 
 ### Step-by-Step
 
@@ -111,7 +111,7 @@ git push origin main
 
 ---
 
-## 🔀 Git Branching & Merging Guide
+## 🔘 🔀 Git Branching & Merging Guide
 
 ### 1️⃣ Setup
 
@@ -181,7 +181,7 @@ git push origin --delete <branch_name>  # Delete remote branch
 
 ---
 
-## ⬇️ Cloning a Specific Branch Only
+## 🔘 ⬇️ Cloning a Specific Branch Only
 
 ### ✅ One-Branch Clone Workflow
 
@@ -209,7 +209,7 @@ git fetch --all
 
 ---
 
-## 📌 Pull Requests → Merging into `staging` & `main`
+## 🔘 📌 Pull Requests → Merging into `staging` & `main`
 
 ### 1. Create a Pull Request
 
@@ -227,7 +227,7 @@ git fetch --all
 
 ---
 
-## 🛠️ MySQL via XAMPP Shell
+## 🔘 🛠️ MySQL via XAMPP Shell
 
 ```bash
 # 1. Open XAMPP Shell
