@@ -37,7 +37,7 @@ A full guide to Git commands, folder setup, GitHub collaboration, branching, mer
 git clone https://github.com/<username>/<repository-name>.git   # Clone the repository
 cd <repository-name>                                            # Enter the repository folder
 git branch -a                                                   # Show all branches (local and remote)
-git checkout <branch_name>                                      # Switch to a specific branch
+git checkout -b <branch_name>                                   # Switch to a specific branch
 git pull origin <branch_name>                                   # Update local branch with latest remote changes
 code .                                                          # Open folder in code editor (e.g., VS Code)
 git status                                                      # Check file changes
