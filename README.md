@@ -63,6 +63,7 @@ cd path/to/your-project-folder             # Navigate to your local folder
 git init                                   # Initialize a Git repository
 git add .                                  # Add all files to staging
 git commit -m "Initial commit"             # Commit with a message
+git branch -M main                         # Renames the current branch to main
 git remote add origin <repo_URL>           # Link your local repo to GitHub
 git push -u origin main                    # Push to the main branch
 ```
